@@ -1,9 +1,13 @@
-# App_Contatos
+# App Contatos com Auth — Expo + TypeScript + Expo Router
 
-App Contatos com Auth — Expo + TypeScript + Expo Router
-Aplicativo gerenciador de contatos com autenticação, desenvolvido com Expo (React Native, TypeScript e Expo Router) e integrado a uma API Node.js/MongoDB (GridFS).
-O que a atividade faz
- * Autenticação: Cadastro e login de usuários com tokens JWT armazenados de forma segura via Expo SecureStore.
- * Proteção de Rotas: Bloqueio de acesso às telas internas para usuários não autenticados.
- * CRUD de Contatos: Listagem, cadastro, edição e exclusão de contatos.
- * Upload de Imagens: Seleção de fotos na galeria do dispositivo e envio via multipart/form-data para o GridFS.
+Gerenciador de contatos com autenticação desenvolvido em Expo (React Native + TypeScript + Expo Router) e conectado a uma API Node.js/MongoDB com GridFS.
+
+## Funcionalidades
+- Autenticação com token JWT salvo via Expo SecureStore.
+- CRUD completo de contatos.
+- Upload e visualização de fotos de contatos via GridFS.
+
+## Como rodar
+1. Instale as dependências: `npm install`
+2. Configure a URL da API em `lib/api.ts` ou via variável de ambiente.
+3. Inicie o projeto: `npx expo start`
